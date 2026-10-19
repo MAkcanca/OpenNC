@@ -4,7 +4,9 @@ Open real-time speech denoiser: 48 kHz, 10 ms frames, no lookahead, 8.2M paramet
 thread. Trained from scratch on open data (DNS Challenge 4, VCTK, MUSAN) with the DeepFilterNet trainer, released with the
 full training pipeline, the evaluation scripts and the weights. Apache 2.0.
 
-This repository is the model. A desktop app that runs it as a virtual microphone is a separate project.
+This repository is the model. The desktop app that runs it as a virtual microphone is
+[OpenNC desktop](https://github.com/MAkcanca/opennc-app) (Windows installer, tray app, auto-update), with a landing page at
+https://makcanca.github.io/opennc-app/.
 
 ## Download
 
