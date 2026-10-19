@@ -1,0 +1,569 @@
+W1013 12:31:47.960000 133420489852736 torch/distributed/run.py:779] 
+W1013 12:31:47.960000 133420489852736 torch/distributed/run.py:779] *****************************************
+W1013 12:31:47.960000 133420489852736 torch/distributed/run.py:779] Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+W1013 12:31:47.960000 133420489852736 torch/distributed/run.py:779] *****************************************
+[W1013 12:31:47.248737295 socket.cpp:697] [c10d] The client socket cannot be initialized to connect to [localhost]:29513 (errno: 97 - Address family not supported by protocol).
+/workspace/opennc/venv/lib/python3.11/site-packages/df/io.py:9: UserWarning: `torchaudio.backend.common.AudioMetaData` has been moved to `torchaudio.AudioMetaData`. Please update the import path.
+  from torchaudio.backend.common import AudioMetaData
+/workspace/opennc/venv/lib/python3.11/site-packages/df/io.py:9: UserWarning: `torchaudio.backend.common.AudioMetaData` has been moved to `torchaudio.AudioMetaData`. Please update the import path.
+  from torchaudio.backend.common import AudioMetaData
+/workspace/opennc/venv/lib/python3.11/site-packages/df/io.py:9: UserWarning: `torchaudio.backend.common.AudioMetaData` has been moved to `torchaudio.AudioMetaData`. Please update the import path.
+  from torchaudio.backend.common import AudioMetaData
+/workspace/opennc/venv/lib/python3.11/site-packages/df/io.py:9: UserWarning: `torchaudio.backend.common.AudioMetaData` has been moved to `torchaudio.AudioMetaData`. Please update the import path.
+  from torchaudio.backend.common import AudioMetaData
+[W1013 12:31:49.608362279 socket.cpp:697] [c10d] The client socket cannot be initialized to connect to [localhost]:29513 (errno: 97 - Address family not supported by protocol).
+[W1013 12:31:49.608816065 socket.cpp:697] [c10d] The client socket cannot be initialized to connect to [localhost]:29513 (errno: 97 - Address family not supported by protocol).
+[W1013 12:31:49.608867637 socket.cpp:697] [c10d] The client socket cannot be initialized to connect to [localhost]:29513 (errno: 97 - Address family not supported by protocol).
+[W1013 12:31:49.608946870 socket.cpp:697] [c10d] The client socket cannot be initialized to connect to [localhost]:29513 (errno: 97 - Address family not supported by protocol).
+2026-10-13 12:31:50 | INFO     | DF | Running on torch 2.4.1+cu124
+2026-10-13 12:31:50 | INFO     | DF | Running on host cc9f77305ee7
+fatal: not a git repository (or any of the parent directories): .git
+2026-10-13 12:31:50 | INFO     | DF | Loading model settings of S2
+2026-10-13 12:31:50 | INFO     | DF | Running on device cuda:0
+2026-10-13 12:31:50 | INFO     | DF | Initializing model `deepfilternet3`
+fatal: not a git repository (or any of the parent directories): .git
+fatal: not a git repository (or any of the parent directories): .git
+fatal: not a git repository (or any of the parent directories): .git
+/workspace/opennc/venv/lib/python3.11/site-packages/df/checkpoint.py:77: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  latest = torch.load(latest, map_location="cpu")
+/workspace/opennc/venv/lib/python3.11/site-packages/df/checkpoint.py:77: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  latest = torch.load(latest, map_location="cpu")
+/workspace/opennc/venv/lib/python3.11/site-packages/df/checkpoint.py:77: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  latest = torch.load(latest, map_location="cpu")
+2026-10-13 12:31:50 | INFO     | DF | Found checkpoint /workspace/runs/S2/checkpoints/model_0.ckpt with epoch 0
+/workspace/opennc/venv/lib/python3.11/site-packages/df/checkpoint.py:77: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  latest = torch.load(latest, map_location="cpu")
+2026-10-13 12:31:50 | INFO     | DF | Initializing dataloader with data directory /workspace/data/h5
+2026-10-13 12:31:51 | INFO     | DF | Running with learning rate scheduling
+2026-10-13 12:31:52 | INFO     | DF | Batch scheduling | Setting batch size to 32
+2026-10-13 12:31:52 | INFO     | DF | Start train epoch 0 with batch size 32
+/workspace/opennc/venv/lib/python3.11/site-packages/torch/autograd/graph.py:769: UserWarning: Grad strides do not match bucket view strides. This may indicate grad was not created according to the gradient layout contract, or that the param's strides changed since DDP was constructed.  This is not an error, but may impair performance.
+grad.sizes() = [64, 1, 3, 3], strides() = [9, 9, 3, 1]
+bucket_view.sizes() = [64, 1, 3, 3], strides() = [9, 1, 3, 1] (Triggered internally at ../torch/csrc/distributed/c10d/reducer.cpp:327.)
+  return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+/workspace/opennc/venv/lib/python3.11/site-packages/torch/autograd/graph.py:769: UserWarning: Grad strides do not match bucket view strides. This may indicate grad was not created according to the gradient layout contract, or that the param's strides changed since DDP was constructed.  This is not an error, but may impair performance.
+grad.sizes() = [64, 1, 3, 3], strides() = [9, 9, 3, 1]
+bucket_view.sizes() = [64, 1, 3, 3], strides() = [9, 1, 3, 1] (Triggered internally at ../torch/csrc/distributed/c10d/reducer.cpp:327.)
+  return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+/workspace/opennc/venv/lib/python3.11/site-packages/torch/autograd/graph.py:769: UserWarning: Grad strides do not match bucket view strides. This may indicate grad was not created according to the gradient layout contract, or that the param's strides changed since DDP was constructed.  This is not an error, but may impair performance.
+grad.sizes() = [64, 1, 3, 3], strides() = [9, 9, 3, 1]
+bucket_view.sizes() = [64, 1, 3, 3], strides() = [9, 1, 3, 1] (Triggered internally at ../torch/csrc/distributed/c10d/reducer.cpp:327.)
+  return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+/workspace/opennc/venv/lib/python3.11/site-packages/torch/autograd/graph.py:769: UserWarning: Grad strides do not match bucket view strides. This may indicate grad was not created according to the gradient layout contract, or that the param's strides changed since DDP was constructed.  This is not an error, but may impair performance.
+grad.sizes() = [64, 1, 3, 3], strides() = [9, 9, 3, 1]
+bucket_view.sizes() = [64, 1, 3, 3], strides() = [9, 1, 3, 1] (Triggered internally at ../torch/csrc/distributed/c10d/reducer.cpp:327.)
+  return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+2026-10-13 12:31:57 | INFO     | DF | [0] [   0/1221] | loss:  0.68137 | t_sample:  0.15527 | t_batch:  0.24040 | lr:  1.000E-04 | wd:  1.000E-12
+2026-10-13 12:32:47 | INFO     | DF | [0] [ 200/1221] | loss:  0.77178 | t_sample:  7.501E-05 | t_batch:  0.05888 | lr:  1.328E-04 | wd:  7.344E-07
+2026-10-13 12:33:38 | INFO     | DF | [0] [ 400/1221] | loss:  0.74927 | t_sample:  6.468E-05 | t_batch:  0.06425 | lr:  1.655E-04 | wd:  2.937E-06
+2026-10-13 12:34:28 | INFO     | DF | [0] [ 600/1221] | loss:  0.76163 | t_sample:  9.674E-05 | t_batch:  0.06832 | lr:  1.983E-04 | wd:  6.608E-06
+2026-10-13 12:35:00 | WARNING  | DF | No speech signal found for idx 33572, seed 33572
+2026-10-13 12:35:19 | INFO     | DF | [0] [ 800/1221] | loss:  0.76109 | t_sample:  8.294E-05 | t_batch:  0.06002 | lr:  2.310E-04 | wd:  1.175E-05
+2026-10-13 12:35:33 | WARNING  | DF | No speech signal found for idx 11397, seed 11397
+2026-10-13 12:36:09 | INFO     | DF | [0] [1000/1221] | loss:  0.76720 | t_sample:  6.793E-05 | t_batch:  0.05679 | lr:  2.638E-04 | wd:  1.835E-05
+2026-10-13 12:36:59 | INFO     | DF | [0] [1200/1221] | loss:  0.78152 | t_sample:  1.766E-05 | t_batch:  0.05333 | lr:  2.966E-04 | wd:  2.641E-05
+2026-10-13 12:37:03 | INFO     | DF | Avg batch loading time (py): 0.0004s
+2026-10-13 12:37:03 | INFO     | DF | Avg batch loading time (rs): 0.0649s
+2026-10-13 12:37:03 | INFO     | DF | Min/Avg/Max sample loading time (rs): 0.0000/0.0000/0.0671s
+2026-10-13 12:37:03 | INFO     | DF | [0] [train] | loss:  0.76289 | lr:  3.000E-04
+2026-10-13 12:37:03 | INFO     | DF | Writing checkpoint /workspace/runs/S2/checkpoints/model_1.ckpt with epoch 1
+2026-10-13 12:37:03 | INFO     | DF | Writing checkpoint /workspace/runs/S2/checkpoints/opt_1.ckpt with epoch 1
+2026-10-13 12:37:03 | INFO     | DF | Start valid epoch 0 with batch size 64
+/workspace/opennc/venv/lib/python3.11/site-packages/df/io.py:106: UserWarning: "sinc_interpolation" resampling method name is being deprecated and replaced by "sinc_interp_hann" in the next release. The default behavior remains unchanged.
+  return ta_resample(audio, orig_sr, new_sr, **params)
+/workspace/opennc/venv/lib/python3.11/site-packages/torch/functional.py:666: UserWarning: stft with return_complex=False is deprecated. In a future pytorch release, stft will return complex tensors for all inputs, and return_complex=False will raise an error.
+Note: you can still call torch.view_as_real on the complex output to recover the old return format. (Triggered internally at ../aten/src/ATen/native/SpectralOps.cpp:873.)
+  return _VF.stft(input, n_fft, hop_length, win_length, window,  # type: ignore[attr-defined]
+2026-10-13 12:37:05 | INFO     | DF | [0] [0/3] | loss:  0.83433 | t_sample:  0.25318 | t_batch:  0.38015
+2026-10-13 12:37:06 | INFO     | DF | Avg batch loading time (py): 0.0939s
+2026-10-13 12:37:06 | INFO     | DF | Avg batch loading time (rs): 0.1904s
+2026-10-13 12:37:06 | INFO     | DF | Min/Avg/Max sample loading time (rs): 0.0000/0.0013/0.0576s
+2026-10-13 12:37:06 | INFO     | DF | Saving new best checkpoint at epoch 1 with metric: 0.7676582336425781
+2026-10-13 12:37:06 | INFO     | DF | Writing checkpoint /workspace/runs/S2/checkpoints/model_1.ckpt with epoch 1
+2026-10-13 12:37:06 | INFO     | DF | [0] [valid] | sdr_snr_-100: -1.30372 | stoi_snr_-100:  0.000E+00 | sdr_snr_-5:  6.32720 | stoi_snr_-5:  0.73914 | sdr_snr_0:  9.69452 | stoi_snr_0:  0.83797 | sdr_snr_5:  12.84321 | stoi_snr_5:  0.90408 | sdr_snr_10:  14.87974 | stoi_snr_10:  0.93619 | sdr_snr_20:  21.17306 | stoi_snr_20:  0.97406 | sdr_snr_40:  31.62851 | stoi_snr_40:  0.99693
+2026-10-13 12:37:06 | INFO     | DF | [0] [valid] | loss:  0.76766 | MultiResSpecLoss:  0.74687 | LocalSnrLoss:  0.02079
+2026-10-13 12:37:06 | INFO     | DF | Start train epoch 1 with batch size 32
+2026-10-13 12:37:07 | INFO     | DF | [1] [   0/1221] | loss:  1.17462 | t_sample:  0.17423 | t_batch:  0.25194 | lr:  3.000E-04 | wd:  2.739E-05
+2026-10-13 12:37:57 | INFO     | DF | [1] [ 200/1221] | loss:  0.75407 | t_sample:  7.804E-05 | t_batch:  0.06643 | lr:  3.000E-04 | wd:  3.708E-05
+2026-10-13 12:38:01 | WARNING  | DF | No speech signal found for idx 29990, seed 29994
+2026-10-13 12:38:48 | INFO     | DF | [1] [ 400/1221] | loss:  0.72812 | t_sample:  9.836E-05 | t_batch:  0.07972 | lr:  2.999E-04 | wd:  4.822E-05
+2026-10-13 12:39:37 | INFO     | DF | [1] [ 600/1221] | loss:  0.74739 | t_sample:  6.791E-05 | t_batch:  0.06206 | lr:  2.998E-04 | wd:  6.082E-05
+2026-10-13 12:40:27 | INFO     | DF | [1] [ 800/1221] | loss:  0.76461 | t_sample:  8.229E-05 | t_batch:  0.06446 | lr:  2.996E-04 | wd:  7.487E-05
+2026-10-13 12:41:17 | INFO     | DF | [1] [1000/1221] | loss:  0.76205 | t_sample:  8.269E-05 | t_batch:  0.07726 | lr:  2.994E-04 | wd:  9.037E-05
+2026-10-13 12:42:06 | INFO     | DF | [1] [1200/1221] | loss:  0.74627 | t_sample:  2.014E-05 | t_batch:  0.04894 | lr:  2.992E-04 | wd:  1.073E-04
+2026-10-13 12:42:10 | INFO     | DF | Avg batch loading time (py): 0.0001s
+2026-10-13 12:42:10 | INFO     | DF | Avg batch loading time (rs): 0.0641s
+2026-10-13 12:42:10 | INFO     | DF | Min/Avg/Max sample loading time (rs): 0.0000/0.0000/0.0586s
+2026-10-13 12:42:11 | INFO     | DF | [1] [train] | loss:  0.75880 | lr:  2.991E-04
+2026-10-13 12:42:11 | INFO     | DF | Writing checkpoint /workspace/runs/S2/checkpoints/model_2.ckpt with epoch 2
+2026-10-13 12:42:11 | INFO     | DF | Writing checkpoint /workspace/runs/S2/checkpoints/opt_2.ckpt with epoch 2
+2026-10-13 12:42:11 | INFO     | DF | Start valid epoch 1 with batch size 64
+/workspace/opennc/venv/lib/python3.11/site-packages/df/io.py:106: UserWarning: "sinc_interpolation" resampling method name is being deprecated and replaced by "sinc_interp_hann" in the next release. The default behavior remains unchanged.
+  return ta_resample(audio, orig_sr, new_sr, **params)
+2026-10-13 12:42:12 | INFO     | DF | [1] [0/3] | loss:  0.79341 | t_sample:  0.35794 | t_batch:  0.48081
+2026-10-13 12:42:12 | INFO     | DF | Avg batch loading time (py): 0.0636s
+2026-10-13 12:42:12 | INFO     | DF | Avg batch loading time (rs): 0.3161s
+2026-10-13 12:42:12 | INFO     | DF | Min/Avg/Max sample loading time (rs): 0.0000/0.0032/0.0484s
+2026-10-13 12:42:13 | INFO     | DF | Writing checkpoint /workspace/runs/S2/checkpoints/model_2.ckpt with epoch 2
+2026-10-13 12:42:13 | INFO     | DF | [1] [valid] | sdr_snr_-100: -1.42489 | stoi_snr_-100:  0.000E+00 | sdr_snr_-5:  6.35683 | stoi_snr_-5:  0.73866 | sdr_snr_0:  9.75807 | stoi_snr_0:  0.83794 | sdr_snr_5:  12.82646 | stoi_snr_5:  0.90046 | sdr_snr_10:  14.83626 | stoi_snr_10:  0.93524 | sdr_snr_20:  21.02015 | stoi_snr_20:  0.97423 | sdr_snr_40:  31.59442 | stoi_snr_40:  0.99677
+2026-10-13 12:42:13 | INFO     | DF | [1] [valid] | loss:  0.77152 | MultiResSpecLoss:  0.75046 | LocalSnrLoss:  0.02106
+2026-10-13 12:42:13 | INFO     | DF | Start train epoch 2 with batch size 32
+2026-10-13 12:42:14 | INFO     | DF | [2] [   0/1221] | loss:  0.94417 | t_sample:  0.11972 | t_batch:  0.19882 | lr:  2.991E-04 | wd:  1.093E-04
+2026-10-13 12:43:04 | INFO     | DF | [2] [ 200/1221] | loss:  0.73961 | t_sample:  1.093E-04 | t_batch:  0.05529 | lr:  2.988E-04 | wd:  1.278E-04
+2026-10-13 12:43:55 | INFO     | DF | [2] [ 400/1221] | loss:  0.75059 | t_sample:  7.682E-05 | t_batch:  0.06536 | lr:  2.985E-04 | wd:  1.478E-04
+2026-10-13 12:44:45 | INFO     | DF | [2] [ 600/1221] | loss:  0.77113 | t_sample:  6.678E-05 | t_batch:  0.06264 | lr:  2.981E-04 | wd:  1.692E-04
+2026-10-13 12:45:12 | WARNING  | DF | No speech signal found for idx 2332, seed 2340
+2026-10-13 12:45:35 | INFO     | DF | [2] [ 800/1221] | loss:  0.74280 | t_sample:  1.041E-04 | t_batch:  0.06192 | lr:  2.976E-04 | wd:  1.920E-04
+2026-10-13 12:46:24 | WARNING  | DF | No speech signal found for idx 14483, seed 14491
+2026-10-13 12:46:26 | INFO     | DF | [2] [1000/1221] | loss:  0.76085 | t_sample:  8.152E-05 | t_batch:  0.05554 | lr:  2.971E-04 | wd:  2.162E-04
+2026-10-13 12:46:39 | WARNING  | DF | No speech signal found for idx 22924, seed 22932
+2026-10-13 12:47:16 | INFO     | DF | [2] [1200/1221] | loss:  0.75536 | t_sample:  1.879E-05 | t_batch:  0.05079 | lr:  2.966E-04 | wd:  2.418E-04
+2026-10-13 12:47:20 | INFO     | DF | Avg batch loading time (py): 0.0001s
+2026-10-13 12:47:20 | INFO     | DF | Avg batch loading time (rs): 0.0650s
+2026-10-13 12:47:20 | INFO     | DF | Min/Avg/Max sample loading time (rs): 0.0000/0.0000/0.0594s
+2026-10-13 12:47:20 | INFO     | DF | [2] [train] | loss:  0.75637 | lr:  2.965E-04
+2026-10-13 12:47:20 | INFO     | DF | Writing checkpoint /workspace/runs/S2/checkpoints/model_3.ckpt with epoch 3
+2026-10-13 12:47:20 | INFO     | DF | Writing checkpoint /workspace/runs/S2/checkpoints/opt_3.ckpt with epoch 3
+2026-10-13 12:47:20 | INFO     | DF | Start valid epoch 2 with batch size 64
+/workspace/opennc/venv/lib/python3.11/site-packages/df/io.py:106: UserWarning: "sinc_interpolation" resampling method name is being deprecated and replaced by "sinc_interp_hann" in the next release. The default behavior remains unchanged.
+  return ta_resample(audio, orig_sr, new_sr, **params)
+2026-10-13 12:47:22 | INFO     | DF | [2] [0/3] | loss:  0.68729 | t_sample:  0.33175 | t_batch:  0.45835
+2026-10-13 12:47:22 | INFO     | DF | Avg batch loading time (py): 0.0763s
+2026-10-13 12:47:22 | INFO     | DF | Avg batch loading time (rs): 0.3383s
+2026-10-13 12:47:22 | INFO     | DF | Min/Avg/Max sample loading time (rs): 0.0000/0.0033/0.0563s
+2026-10-13 12:47:22 | INFO     | DF | Saving new best checkpoint at epoch 3 with metric: 0.7676372528076172
+2026-10-13 12:47:22 | INFO     | DF | Writing checkpoint /workspace/runs/S2/checkpoints/model_3.ckpt with epoch 3
+2026-10-13 12:47:22 | INFO     | DF | [2] [valid] | sdr_snr_-100: -1.31795 | stoi_snr_-100:  0.000E+00 | sdr_snr_-5:  6.39966 | stoi_snr_-5:  0.73998 | sdr_snr_0:  9.85832 | stoi_snr_0:  0.83551 | sdr_snr_5:  12.90338 | stoi_snr_5:  0.90381 | sdr_snr_10:  14.86861 | stoi_snr_10:  0.93679 | sdr_snr_20:  21.26501 | stoi_snr_20:  0.97430 | sdr_snr_40:  31.57023 | stoi_snr_40:  0.99668
+2026-10-13 12:47:22 | INFO     | DF | [2] [valid] | loss:  0.76764 | MultiResSpecLoss:  0.74595 | LocalSnrLoss:  0.02168
+2026-10-13 12:47:22 | INFO     | DF | Start train epoch 3 with batch size 32
+2026-10-13 12:47:24 | INFO     | DF | [3] [   0/1221] | loss:  0.69180 | t_sample:  0.15960 | t_batch:  0.24847 | lr:  2.965E-04 | wd:  2.447E-04
+2026-10-13 12:47:35 | WARNING  | DF | No speech signal found for idx 30300, seed 30312
+2026-10-13 12:48:15 | INFO     | DF | [3] [ 200/1221] | loss:  0.74393 | t_sample:  7.164E-05 | t_batch:  0.06830 | lr:  2.959E-04 | wd:  2.719E-04
+2026-10-13 12:48:35 | WARNING  | DF | No speech signal found for idx 132, seed 144
+2026-10-13 12:49:05 | INFO     | DF | [3] [ 400/1221] | loss:  0.75166 | t_sample:  8.656E-05 | t_batch:  0.06987 | lr:  2.953E-04 | wd:  3.005E-04
+2026-10-13 12:49:08 | WARNING  | DF | No speech signal found for idx 9978, seed 9990
+2026-10-13 12:49:55 | INFO     | DF | [3] [ 600/1221] | loss:  0.78315 | t_sample:  6.874E-05 | t_batch:  0.05927 | lr:  2.946E-04 | wd:  3.304E-04
+2026-10-13 12:50:46 | INFO     | DF | [3] [ 800/1221] | loss:  0.77277 | t_sample:  6.986E-05 | t_batch:  0.05464 | lr:  2.939E-04 | wd:  3.617E-04
+2026-10-13 12:51:36 | INFO     | DF | [3] [1000/1221] | loss:  0.76138 | t_sample:  8.577E-05 | t_batch:  0.08345 | lr:  2.931E-04 | wd:  3.944E-04
+2026-10-13 12:52:27 | INFO     | DF | [3] [1200/1221] | loss:  0.74301 | t_sample:  1.497E-05 | t_batch:  0.05182 | lr:  2.923E-04 | wd:  4.284E-04
+2026-10-13 12:52:31 | INFO     | DF | Avg batch loading time (py): 0.0001s
+2026-10-13 12:52:31 | INFO     | DF | Avg batch loading time (rs): 0.0647s
+2026-10-13 12:52:31 | INFO     | DF | Min/Avg/Max sample loading time (rs): 0.0000/0.0000/0.0555s
+2026-10-13 12:52:31 | INFO     | DF | [3] [train] | loss:  0.75628 | lr:  2.922E-04
+2026-10-13 12:52:31 | INFO     | DF | Writing checkpoint /workspace/runs/S2/checkpoints/model_4.ckpt with epoch 4
+2026-10-13 12:52:31 | INFO     | DF | Writing checkpoint /workspace/runs/S2/checkpoints/opt_4.ckpt with epoch 4
+2026-10-13 12:52:31 | INFO     | DF | Start valid epoch 3 with batch size 64
+/workspace/opennc/venv/lib/python3.11/site-packages/df/io.py:106: UserWarning: "sinc_interpolation" resampling method name is being deprecated and replaced by "sinc_interp_hann" in the next release. The default behavior remains unchanged.
+  return ta_resample(audio, orig_sr, new_sr, **params)
+2026-10-13 12:52:32 | INFO     | DF | [3] [0/3] | loss:  0.82989 | t_sample:  0.21266 | t_batch:  0.33413
+2026-10-13 12:52:33 | INFO     | DF | Avg batch loading time (py): 0.0400s
+2026-10-13 12:52:33 | INFO     | DF | Avg batch loading time (rs): 0.2057s
+2026-10-13 12:52:33 | INFO     | DF | Min/Avg/Max sample loading time (rs): 0.0000/0.0016/0.0521s
+2026-10-13 12:52:33 | INFO     | DF | Saving new best checkpoint at epoch 4 with metric: 0.767150342464447
+2026-10-13 12:52:33 | INFO     | DF | Writing checkpoint /workspace/runs/S2/checkpoints/model_4.ckpt with epoch 4
+2026-10-13 12:52:33 | INFO     | DF | [3] [valid] | sdr_snr_-100: -1.20242 | stoi_snr_-100:  0.000E+00 | sdr_snr_-5:  6.40915 | stoi_snr_-5:  0.74046 | sdr_snr_0:  9.87694 | stoi_snr_0:  0.84184 | sdr_snr_5:  13.01922 | stoi_snr_5:  0.90341 | sdr_snr_10:  14.91063 | stoi_snr_10:  0.93673 | sdr_snr_20:  21.30158 | stoi_snr_20:  0.97415 | sdr_snr_40:  31.66547 | stoi_snr_40:  0.99716
+2026-10-13 12:52:33 | INFO     | DF | [3] [valid] | loss:  0.76715 | MultiResSpecLoss:  0.74602 | LocalSnrLoss:  0.02113
+2026-10-13 12:52:33 | INFO     | DF | Start train epoch 4 with batch size 32
+2026-10-13 12:52:34 | INFO     | DF | [4] [   0/1221] | loss:  0.96179 | t_sample:  0.18357 | t_batch:  0.27386 | lr:  2.922E-04 | wd:  4.323E-04
+2026-10-13 12:53:25 | INFO     | DF | [4] [ 200/1221] | loss:  0.75788 | t_sample:  8.431E-05 | t_batch:  0.05895 | lr:  2.913E-04 | wd:  4.678E-04
+2026-10-13 12:54:15 | INFO     | DF | [4] [ 400/1221] | loss:  0.75014 | t_sample:  9.387E-05 | t_batch:  0.07318 | lr:  2.904E-04 | wd:  5.047E-04
+2026-10-13 12:55:06 | INFO     | DF | [4] [ 600/1221] | loss:  0.74146 | t_sample:  9.476E-05 | t_batch:  0.06540 | lr:  2.894E-04 | wd:  5.428E-04
+2026-10-13 12:55:39 | WARNING  | DF | No speech signal found for idx 33567, seed 33583
+2026-10-13 12:55:56 | INFO     | DF | [4] [ 800/1221] | loss:  0.76271 | t_sample:  7.176E-05 | t_batch:  0.06370 | lr:  2.884E-04 | wd:  5.823E-04
+2026-10-13 12:56:44 | WARNING  | DF | No speech signal found for idx 14787, seed 14803
+2026-10-13 12:56:46 | INFO     | DF | [4] [1000/1221] | loss:  0.77705 | t_sample:  7.959E-05 | t_batch:  0.08904 | lr:  2.874E-04 | wd:  6.231E-04
+2026-10-13 12:57:36 | INFO     | DF | [4] [1200/1221] | loss:  0.74927 | t_sample:  1.319E-05 | t_batch:  0.05162 | lr:  2.863E-04 | wd:  6.652E-04
+2026-10-13 12:57:41 | INFO     | DF | Avg batch loading time (py): 0.0001s
+2026-10-13 12:57:41 | INFO     | DF | Avg batch loading time (rs): 0.0651s
+2026-10-13 12:57:41 | INFO     | DF | Min/Avg/Max sample loading time (rs): 0.0000/0.0000/0.0578s
+2026-10-13 12:57:41 | INFO     | DF | [4] [train] | loss:  0.75226 | lr:  2.862E-04
+2026-10-13 12:57:41 | INFO     | DF | Writing checkpoint /workspace/runs/S2/checkpoints/model_5.ckpt with epoch 5
+2026-10-13 12:57:41 | INFO     | DF | Writing checkpoint /workspace/runs/S2/checkpoints/opt_5.ckpt with epoch 5
+2026-10-13 12:57:41 | INFO     | DF | Start valid epoch 4 with batch size 64
+/workspace/opennc/venv/lib/python3.11/site-packages/df/io.py:106: UserWarning: "sinc_interpolation" resampling method name is being deprecated and replaced by "sinc_interp_hann" in the next release. The default behavior remains unchanged.
+  return ta_resample(audio, orig_sr, new_sr, **params)
+2026-10-13 12:57:42 | INFO     | DF | [4] [0/3] | loss:  0.80467 | t_sample:  0.23964 | t_batch:  0.36725
+2026-10-13 12:57:42 | INFO     | DF | Avg batch loading time (py): 0.0466s
+2026-10-13 12:57:42 | INFO     | DF | Avg batch loading time (rs): 0.2160s
+2026-10-13 12:57:42 | INFO     | DF | Min/Avg/Max sample loading time (rs): 0.0000/0.0016/0.0935s
+2026-10-13 12:57:42 | INFO     | DF | Saving new best checkpoint at epoch 5 with metric: 0.7623957991600037
+2026-10-13 12:57:42 | INFO     | DF | Writing checkpoint /workspace/runs/S2/checkpoints/model_5.ckpt with epoch 5
+2026-10-13 12:57:42 | INFO     | DF | [4] [valid] | sdr_snr_-100: -0.90261 | stoi_snr_-100:  0.000E+00 | sdr_snr_-5:  6.46681 | stoi_snr_-5:  0.74042 | sdr_snr_0:  9.94979 | stoi_snr_0:  0.84383 | sdr_snr_5:  13.05060 | stoi_snr_5:  0.90597 | sdr_snr_10:  14.97722 | stoi_snr_10:  0.93842 | sdr_snr_20:  21.38832 | stoi_snr_20:  0.97420 | sdr_snr_40:  31.90354 | stoi_snr_40:  0.99699
+2026-10-13 12:57:42 | INFO     | DF | [4] [valid] | loss:  0.76240 | MultiResSpecLoss:  0.74181 | LocalSnrLoss:  0.02059
+2026-10-13 12:57:42 | INFO     | DF | Start train epoch 5 with batch size 32
+2026-10-13 12:57:44 | INFO     | DF | [5] [   0/1221] | loss:  0.91143 | t_sample:  0.20487 | t_batch:  0.30525 | lr:  2.862E-04 | wd:  6.699E-04
+2026-10-13 12:57:45 | WARNING  | DF | No speech signal found for idx 31698, seed 31718
+2026-10-13 12:58:35 | INFO     | DF | [5] [ 200/1221] | loss:  0.76066 | t_sample:  8.286E-05 | t_batch:  0.05779 | lr:  2.850E-04 | wd:  7.134E-04
+2026-10-13 12:59:25 | INFO     | DF | [5] [ 400/1221] | loss:  0.77519 | t_sample:  6.453E-05 | t_batch:  0.06338 | lr:  2.839E-04 | wd:  7.581E-04
+2026-10-13 12:59:47 | WARNING  | DF | No speech signal found for idx 29463, seed 29483
+2026-10-13 13:00:16 | INFO     | DF | [5] [ 600/1221] | loss:  0.75098 | t_sample:  7.790E-05 | t_batch:  0.06531 | lr:  2.827E-04 | wd:  8.041E-04
+2026-10-13 13:01:07 | INFO     | DF | [5] [ 800/1221] | loss:  0.74180 | t_sample:  6.667E-05 | t_batch:  0.06562 | lr:  2.814E-04 | wd:  8.513E-04
+2026-10-13 13:01:58 | INFO     | DF | [5] [1000/1221] | loss:  0.75763 | t_sample:  7.060E-05 | t_batch:  0.05819 | lr:  2.801E-04 | wd:  8.997E-04
+2026-10-13 13:02:41 | WARNING  | DF | No speech signal found for idx 30796, seed 30816
+2026-10-13 13:02:47 | INFO     | DF | [5] [1200/1221] | loss:  0.74575 | t_sample:  2.074E-05 | t_batch:  0.05212 | lr:  2.788E-04 | wd:  9.494E-04
+2026-10-13 13:02:51 | INFO     | DF | Avg batch loading time (py): 0.0001s
+2026-10-13 13:02:51 | INFO     | DF | Avg batch loading time (rs): 0.0646s
+2026-10-13 13:02:51 | INFO     | DF | Min/Avg/Max sample loading time (rs): 0.0000/0.0000/0.1022s
+2026-10-13 13:02:51 | INFO     | DF | [5] [train] | loss:  0.75592 | lr:  2.786E-04
+2026-10-13 13:02:52 | INFO     | DF | Writing checkpoint /workspace/runs/S2/checkpoints/model_6.ckpt with epoch 6
+2026-10-13 13:02:52 | INFO     | DF | Writing checkpoint /workspace/runs/S2/checkpoints/opt_6.ckpt with epoch 6
+2026-10-13 13:02:52 | INFO     | DF | Start valid epoch 5 with batch size 64
+/workspace/opennc/venv/lib/python3.11/site-packages/df/io.py:106: UserWarning: "sinc_interpolation" resampling method name is being deprecated and replaced by "sinc_interp_hann" in the next release. The default behavior remains unchanged.
+  return ta_resample(audio, orig_sr, new_sr, **params)
+2026-10-13 13:02:53 | INFO     | DF | [5] [0/3] | loss:  0.81376 | t_sample:  0.23648 | t_batch:  0.36002
+2026-10-13 13:02:53 | INFO     | DF | Avg batch loading time (py): 0.0498s
+2026-10-13 13:02:53 | INFO     | DF | Avg batch loading time (rs): 0.2200s
+2026-10-13 13:02:53 | INFO     | DF | Min/Avg/Max sample loading time (rs): 0.0000/0.0017/0.0684s
+2026-10-13 13:02:53 | INFO     | DF | Saving new best checkpoint at epoch 6 with metric: 0.7602276802062988
+2026-10-13 13:02:53 | INFO     | DF | Writing checkpoint /workspace/runs/S2/checkpoints/model_6.ckpt with epoch 6
+2026-10-13 13:02:53 | INFO     | DF | [5] [valid] | sdr_snr_-100: -1.11260 | stoi_snr_-100:  0.000E+00 | sdr_snr_-5:  6.45307 | stoi_snr_-5:  0.73860 | sdr_snr_0:  9.73041 | stoi_snr_0:  0.84466 | sdr_snr_5:  12.96218 | stoi_snr_5:  0.90372 | sdr_snr_10:  14.84224 | stoi_snr_10:  0.93878 | sdr_snr_20:  21.32394 | stoi_snr_20:  0.97447 | sdr_snr_40:  32.14896 | stoi_snr_40:  0.99713
+2026-10-13 13:02:53 | INFO     | DF | [5] [valid] | loss:  0.76023 | MultiResSpecLoss:  0.73900 | LocalSnrLoss:  0.02123
+2026-10-13 13:02:53 | INFO     | DF | Start train epoch 6 with batch size 32
+2026-10-13 13:02:55 | INFO     | DF | [6] [   0/1221] | loss:  0.69549 | t_sample:  0.20819 | t_batch:  0.29744 | lr:  2.786E-04 | wd:  9.549E-04
+2026-10-13 13:03:46 | INFO     | DF | [6] [ 200/1221] | loss:  0.74893 | t_sample:  7.440E-05 | t_batch:  0.06547 | lr:  2.772E-04 | wd:  0.00101
+2026-10-13 13:04:36 | INFO     | DF | [6] [ 400/1221] | loss:  0.73683 | t_sample:  8.342E-05 | t_batch:  0.06861 | lr:  2.758E-04 | wd:  0.00106
+2026-10-13 13:04:53 | WARNING  | DF | No speech signal found for idx 25813, seed 25837
+2026-10-13 13:05:27 | INFO     | DF | [6] [ 600/1221] | loss:  0.74107 | t_sample:  1.029E-04 | t_batch:  0.06857 | lr:  2.743E-04 | wd:  0.00111
+2026-10-13 13:06:17 | INFO     | DF | [6] [ 800/1221] | loss:  0.74185 | t_sample:  1.061E-04 | t_batch:  0.06874 | lr:  2.728E-04 | wd:  0.00117
+2026-10-13 13:07:08 | INFO     | DF | [6] [1000/1221] | loss:  0.76795 | t_sample:  1.036E-04 | t_batch:  0.08765 | lr:  2.713E-04 | wd:  0.00122
+2026-10-13 13:07:24 | WARNING  | DF | No speech signal found for idx 9185, seed 9209
+2026-10-13 13:07:58 | INFO     | DF | [6] [1200/1221] | loss:  0.74563 | t_sample:  1.853E-05 | t_batch:  0.05306 | lr:  2.697E-04 | wd:  0.00128
+2026-10-13 13:08:03 | INFO     | DF | Avg batch loading time (py): 0.0002s
+2026-10-13 13:08:03 | INFO     | DF | Avg batch loading time (rs): 0.0664s
+2026-10-13 13:08:03 | INFO     | DF | Min/Avg/Max sample loading time (rs): 0.0000/0.0000/0.0632s
+2026-10-13 13:08:03 | INFO     | DF | [6] [train] | loss:  0.75178 | lr:  2.695E-04
+2026-10-13 13:08:03 | INFO     | DF | Writing checkpoint /workspace/runs/S2/checkpoints/model_7.ckpt with epoch 7
+2026-10-13 13:08:03 | INFO     | DF | Writing checkpoint /workspace/runs/S2/checkpoints/opt_7.ckpt with epoch 7
+2026-10-13 13:08:03 | INFO     | DF | Start valid epoch 6 with batch size 64
+/workspace/opennc/venv/lib/python3.11/site-packages/df/io.py:106: UserWarning: "sinc_interpolation" resampling method name is being deprecated and replaced by "sinc_interp_hann" in the next release. The default behavior remains unchanged.
+  return ta_resample(audio, orig_sr, new_sr, **params)
+2026-10-13 13:08:04 | INFO     | DF | [6] [0/3] | loss:  0.75187 | t_sample:  0.19927 | t_batch:  0.30370
+2026-10-13 13:08:04 | INFO     | DF | Avg batch loading time (py): 0.0403s
+2026-10-13 13:08:04 | INFO     | DF | Avg batch loading time (rs): 0.1885s
+2026-10-13 13:08:04 | INFO     | DF | Min/Avg/Max sample loading time (rs): 0.0000/0.0013/0.0485s
+2026-10-13 13:08:04 | INFO     | DF | Saving new best checkpoint at epoch 7 with metric: 0.7572693824768066
+2026-10-13 13:08:04 | INFO     | DF | Writing checkpoint /workspace/runs/S2/checkpoints/model_7.ckpt with epoch 7
+2026-10-13 13:08:04 | INFO     | DF | [6] [valid] | sdr_snr_-100: -1.39650 | stoi_snr_-100:  0.000E+00 | sdr_snr_-5:  6.49399 | stoi_snr_-5:  0.74381 | sdr_snr_0:  10.02802 | stoi_snr_0:  0.84620 | sdr_snr_5:  13.02395 | stoi_snr_5:  0.90687 | sdr_snr_10:  15.03666 | stoi_snr_10:  0.93864 | sdr_snr_20:  21.36644 | stoi_snr_20:  0.97429 | sdr_snr_40:  32.25819 | stoi_snr_40:  0.99716
+2026-10-13 13:08:04 | INFO     | DF | [6] [valid] | loss:  0.75727 | MultiResSpecLoss:  0.73696 | LocalSnrLoss:  0.02031
+2026-10-13 13:08:04 | INFO     | DF | Start train epoch 7 with batch size 32
+2026-10-13 13:08:05 | INFO     | DF | [7] [   0/1221] | loss:  0.69532 | t_sample:  0.15484 | t_batch:  0.25765 | lr:  2.695E-04 | wd:  0.00128
+2026-10-13 13:08:57 | INFO     | DF | [7] [ 200/1221] | loss:  0.73031 | t_sample:  8.913E-05 | t_batch:  0.06353 | lr:  2.679E-04 | wd:  0.00134
+2026-10-13 13:09:48 | INFO     | DF | [7] [ 400/1221] | loss:  0.76037 | t_sample:  9.622E-05 | t_batch:  0.06747 | lr:  2.662E-04 | wd:  0.00140
+2026-10-13 13:10:38 | INFO     | DF | [7] [ 600/1221] | loss:  0.72516 | t_sample:  7.570E-05 | t_batch:  0.07156 | lr:  2.645E-04 | wd:  0.00146
+2026-10-13 13:11:28 | INFO     | DF | [7] [ 800/1221] | loss:  0.74505 | t_sample:  7.413E-05 | t_batch:  0.05857 | lr:  2.628E-04 | wd:  0.00152
+2026-10-13 13:11:42 | WARNING  | DF | No speech signal found for idx 33578, seed 33606
+2026-10-13 13:12:19 | INFO     | DF | [7] [1000/1221] | loss:  0.75036 | t_sample:  7.631E-05 | t_batch:  0.06203 | lr:  2.610E-04 | wd:  0.00158
+2026-10-13 13:13:08 | INFO     | DF | [7] [1200/1221] | loss:  0.74772 | t_sample:  1.838E-05 | t_batch:  0.05037 | lr:  2.592E-04 | wd:  0.00165
+2026-10-13 13:13:13 | INFO     | DF | Avg batch loading time (py): 0.0001s
+2026-10-13 13:13:13 | INFO     | DF | Avg batch loading time (rs): 0.0670s
+2026-10-13 13:13:13 | INFO     | DF | Min/Avg/Max sample loading time (rs): 0.0000/0.0000/0.0491s
+2026-10-13 13:13:13 | INFO     | DF | [7] [train] | loss:  0.74870 | lr:  2.590E-04
+2026-10-13 13:13:13 | INFO     | DF | Writing checkpoint /workspace/runs/S2/checkpoints/model_8.ckpt with epoch 8
+2026-10-13 13:13:13 | INFO     | DF | Writing checkpoint /workspace/runs/S2/checkpoints/opt_8.ckpt with epoch 8
+2026-10-13 13:13:13 | INFO     | DF | Start valid epoch 7 with batch size 64
+/workspace/opennc/venv/lib/python3.11/site-packages/df/io.py:106: UserWarning: "sinc_interpolation" resampling method name is being deprecated and replaced by "sinc_interp_hann" in the next release. The default behavior remains unchanged.
+  return ta_resample(audio, orig_sr, new_sr, **params)
+2026-10-13 13:13:14 | INFO     | DF | [7] [0/3] | loss:  0.69616 | t_sample:  0.30243 | t_batch:  0.42234
+2026-10-13 13:13:14 | INFO     | DF | Avg batch loading time (py): 0.0389s
+2026-10-13 13:13:14 | INFO     | DF | Avg batch loading time (rs): 0.2499s
+2026-10-13 13:13:14 | INFO     | DF | Min/Avg/Max sample loading time (rs): 0.0000/0.0022/0.0759s
+2026-10-13 13:13:15 | INFO     | DF | Writing checkpoint /workspace/runs/S2/checkpoints/model_8.ckpt with epoch 8
+2026-10-13 13:13:15 | INFO     | DF | [7] [valid] | sdr_snr_-100: -1.80791 | stoi_snr_-100:  0.000E+00 | sdr_snr_-5:  6.56547 | stoi_snr_-5:  0.74428 | sdr_snr_0:  9.85930 | stoi_snr_0:  0.84546 | sdr_snr_5:  13.02152 | stoi_snr_5:  0.90584 | sdr_snr_10:  15.02761 | stoi_snr_10:  0.93909 | sdr_snr_20:  21.42150 | stoi_snr_20:  0.97471 | sdr_snr_40:  32.29584 | stoi_snr_40:  0.99723
+2026-10-13 13:13:15 | INFO     | DF | [7] [valid] | loss:  0.75898 | MultiResSpecLoss:  0.73877 | LocalSnrLoss:  0.02021
+2026-10-13 13:13:15 | INFO     | DF | Start train epoch 8 with batch size 32
+2026-10-13 13:13:16 | INFO     | DF | [8] [   0/1221] | loss:  0.80484 | t_sample:  0.25199 | t_batch:  0.35599 | lr:  2.590E-04 | wd:  0.00165
+2026-10-13 13:14:07 | INFO     | DF | [8] [ 200/1221] | loss:  0.75486 | t_sample:  7.160E-05 | t_batch:  0.06365 | lr:  2.572E-04 | wd:  0.00172
+2026-10-13 13:14:58 | INFO     | DF | [8] [ 400/1221] | loss:  0.74766 | t_sample:  8.606E-05 | t_batch:  0.08913 | lr:  2.553E-04 | wd:  0.00178
+2026-10-13 13:15:20 | WARNING  | DF | No speech signal found for idx 13888, seed 13920
+2026-10-13 13:15:50 | INFO     | DF | [8] [ 600/1221] | loss:  0.76923 | t_sample:  7.679E-05 | t_batch:  0.05980 | lr:  2.534E-04 | wd:  0.00185
+2026-10-13 13:16:40 | INFO     | DF | [8] [ 800/1221] | loss:  0.74654 | t_sample:  9.329E-05 | t_batch:  0.06309 | lr:  2.515E-04 | wd:  0.00192
+2026-10-13 13:17:30 | INFO     | DF | [8] [1000/1221] | loss:  0.75885 | t_sample:  9.174E-05 | t_batch:  0.05853 | lr:  2.495E-04 | wd:  0.00198
+2026-10-13 13:18:20 | INFO     | DF | [8] [1200/1221] | loss:  0.77313 | t_sample:  1.629E-05 | t_batch:  0.05212 | lr:  2.475E-04 | wd:  0.00205
+2026-10-13 13:18:24 | INFO     | DF | Avg batch loading time (py): 0.0001s
+2026-10-13 13:18:24 | INFO     | DF | Avg batch loading time (rs): 0.0656s
+2026-10-13 13:18:24 | INFO     | DF | Min/Avg/Max sample loading time (rs): 0.0000/0.0000/0.0587s
+2026-10-13 13:18:24 | INFO     | DF | [8] [train] | loss:  0.75395 | lr:  2.473E-04
+2026-10-13 13:18:24 | INFO     | DF | Writing checkpoint /workspace/runs/S2/checkpoints/model_9.ckpt with epoch 9
+2026-10-13 13:18:24 | INFO     | DF | Writing checkpoint /workspace/runs/S2/checkpoints/opt_9.ckpt with epoch 9
+2026-10-13 13:18:24 | INFO     | DF | Start valid epoch 8 with batch size 64
+/workspace/opennc/venv/lib/python3.11/site-packages/df/io.py:106: UserWarning: "sinc_interpolation" resampling method name is being deprecated and replaced by "sinc_interp_hann" in the next release. The default behavior remains unchanged.
+  return ta_resample(audio, orig_sr, new_sr, **params)
+2026-10-13 13:18:25 | INFO     | DF | [8] [0/3] | loss:  0.74119 | t_sample:  0.25650 | t_batch:  0.38148
+2026-10-13 13:18:26 | INFO     | DF | Avg batch loading time (py): 0.0407s
+2026-10-13 13:18:26 | INFO     | DF | Avg batch loading time (rs): 0.2221s
+2026-10-13 13:18:26 | INFO     | DF | Min/Avg/Max sample loading time (rs): 0.0000/0.0017/0.0674s
+2026-10-13 13:18:26 | INFO     | DF | Saving new best checkpoint at epoch 9 with metric: 0.753996729850769
+2026-10-13 13:18:26 | INFO     | DF | Writing checkpoint /workspace/runs/S2/checkpoints/model_9.ckpt with epoch 9
+2026-10-13 13:18:26 | INFO     | DF | [8] [valid] | sdr_snr_-100: -0.97927 | stoi_snr_-100:  0.000E+00 | sdr_snr_-5:  6.52649 | stoi_snr_-5:  0.74151 | sdr_snr_0:  9.90843 | stoi_snr_0:  0.84128 | sdr_snr_5:  12.98582 | stoi_snr_5:  0.90410 | sdr_snr_10:  14.99816 | stoi_snr_10:  0.93816 | sdr_snr_20:  21.36199 | stoi_snr_20:  0.97455 | sdr_snr_40:  32.47654 | stoi_snr_40:  0.99719
+2026-10-13 13:18:26 | INFO     | DF | [8] [valid] | loss:  0.75400 | MultiResSpecLoss:  0.73502 | LocalSnrLoss:  0.01898
+2026-10-13 13:18:26 | INFO     | DF | Start train epoch 9 with batch size 32
+2026-10-13 13:18:27 | INFO     | DF | [9] [   0/1221] | loss:  0.90408 | t_sample:  0.21688 | t_batch:  0.30693 | lr:  2.473E-04 | wd:  0.00206
+2026-10-13 13:19:19 | INFO     | DF | [9] [ 200/1221] | loss:  0.75755 | t_sample:  1.105E-04 | t_batch:  0.06116 | lr:  2.452E-04 | wd:  0.00213
+2026-10-13 13:20:10 | INFO     | DF | [9] [ 400/1221] | loss:  0.74329 | t_sample:  7.263E-05 | t_batch:  0.07511 | lr:  2.432E-04 | wd:  0.00220
+2026-10-13 13:21:00 | INFO     | DF | [9] [ 600/1221] | loss:  0.72406 | t_sample:  7.613E-05 | t_batch:  0.06447 | lr:  2.411E-04 | wd:  0.00227
+2026-10-13 13:21:29 | WARNING  | DF | No speech signal found for idx 11848, seed 11884
+2026-10-13 13:21:51 | INFO     | DF | [9] [ 800/1221] | loss:  0.76015 | t_sample:  8.056E-05 | t_batch:  0.06445 | lr:  2.390E-04 | wd:  0.00235
+2026-10-13 13:22:31 | WARNING  | DF | No speech signal found for idx 30397, seed 30433
+2026-10-13 13:22:42 | INFO     | DF | [9] [1000/1221] | loss:  0.74542 | t_sample:  6.933E-05 | t_batch:  0.06534 | lr:  2.368E-04 | wd:  0.00242
+2026-10-13 13:23:32 | INFO     | DF | [9] [1200/1221] | loss:  0.76028 | t_sample:  2.516E-05 | t_batch:  0.05133 | lr:  2.346E-04 | wd:  0.00249
+2026-10-13 13:23:36 | INFO     | DF | Avg batch loading time (py): 0.0001s
+2026-10-13 13:23:36 | INFO     | DF | Avg batch loading time (rs): 0.0669s
+2026-10-13 13:23:36 | INFO     | DF | Min/Avg/Max sample loading time (rs): 0.0000/0.0000/0.0912s
+2026-10-13 13:23:36 | INFO     | DF | [9] [train] | loss:  0.74851 | lr:  2.344E-04
+2026-10-13 13:23:36 | INFO     | DF | Writing checkpoint /workspace/runs/S2/checkpoints/model_10.ckpt with epoch 10
+2026-10-13 13:23:36 | INFO     | DF | Writing checkpoint /workspace/runs/S2/checkpoints/opt_10.ckpt with epoch 10
+2026-10-13 13:23:36 | INFO     | DF | Start valid epoch 9 with batch size 64
+/workspace/opennc/venv/lib/python3.11/site-packages/df/io.py:106: UserWarning: "sinc_interpolation" resampling method name is being deprecated and replaced by "sinc_interp_hann" in the next release. The default behavior remains unchanged.
+  return ta_resample(audio, orig_sr, new_sr, **params)
+2026-10-13 13:23:38 | INFO     | DF | [9] [0/3] | loss:  0.93986 | t_sample:  0.27582 | t_batch:  0.39965
+2026-10-13 13:23:38 | INFO     | DF | Avg batch loading time (py): 0.0558s
+2026-10-13 13:23:38 | INFO     | DF | Avg batch loading time (rs): 0.2453s
+2026-10-13 13:23:38 | INFO     | DF | Min/Avg/Max sample loading time (rs): 0.0000/0.0021/0.0681s
+2026-10-13 13:23:38 | INFO     | DF | Writing checkpoint /workspace/runs/S2/checkpoints/model_10.ckpt with epoch 10
+2026-10-13 13:23:38 | INFO     | DF | [9] [valid] | sdr_snr_-100: -1.45402 | stoi_snr_-100:  0.000E+00 | sdr_snr_-5:  6.47739 | stoi_snr_-5:  0.74256 | sdr_snr_0:  9.76693 | stoi_snr_0:  0.84135 | sdr_snr_5:  12.92008 | stoi_snr_5:  0.90424 | sdr_snr_10:  14.97992 | stoi_snr_10:  0.93818 | sdr_snr_20:  21.29999 | stoi_snr_20:  0.97449 | sdr_snr_40:  31.99444 | stoi_snr_40:  0.99714
+2026-10-13 13:23:38 | INFO     | DF | [9] [valid] | loss:  0.75586 | MultiResSpecLoss:  0.73526 | LocalSnrLoss:  0.02061
+2026-10-13 13:23:38 | INFO     | DF | Start train epoch 10 with batch size 32
+2026-10-13 13:23:40 | INFO     | DF | [10] [   0/1221] | loss:  0.68490 | t_sample:  0.17539 | t_batch:  0.26683 | lr:  2.344E-04 | wd:  0.00250
+2026-10-13 13:24:31 | INFO     | DF | [10] [ 200/1221] | loss:  0.74704 | t_sample:  7.479E-05 | t_batch:  0.06421 | lr:  2.322E-04 | wd:  0.00257
+2026-10-13 13:25:21 | INFO     | DF | [10] [ 400/1221] | loss:  0.75732 | t_sample:  7.360E-05 | t_batch:  0.05595 | lr:  2.300E-04 | wd:  0.00265
+2026-10-13 13:26:12 | INFO     | DF | [10] [ 600/1221] | loss:  0.74057 | t_sample:  7.699E-05 | t_batch:  0.06885 | lr:  2.277E-04 | wd:  0.00273
+2026-10-13 13:27:02 | INFO     | DF | [10] [ 800/1221] | loss:  0.77727 | t_sample:  7.078E-05 | t_batch:  0.05905 | lr:  2.254E-04 | wd:  0.00280
+2026-10-13 13:27:52 | INFO     | DF | [10] [1000/1221] | loss:  0.74018 | t_sample:  6.336E-05 | t_batch:  0.07073 | lr:  2.231E-04 | wd:  0.00288
+2026-10-13 13:28:19 | WARNING  | DF | No speech signal found for idx 32643, seed 32683
+2026-10-13 13:28:42 | INFO     | DF | [10] [1200/1221] | loss:  0.77496 | t_sample:  1.384E-05 | t_batch:  0.05259 | lr:  2.208E-04 | wd:  0.00296
+2026-10-13 13:28:47 | INFO     | DF | Avg batch loading time (py): 0.0001s
+2026-10-13 13:28:47 | INFO     | DF | Avg batch loading time (rs): 0.0654s
+2026-10-13 13:28:47 | INFO     | DF | Min/Avg/Max sample loading time (rs): 0.0000/0.0000/0.0649s
+2026-10-13 13:28:47 | INFO     | DF | [10] [train] | loss:  0.75196 | lr:  2.205E-04
+2026-10-13 13:28:47 | INFO     | DF | Writing checkpoint /workspace/runs/S2/checkpoints/model_11.ckpt with epoch 11
+2026-10-13 13:28:47 | INFO     | DF | Writing checkpoint /workspace/runs/S2/checkpoints/opt_11.ckpt with epoch 11
+2026-10-13 13:28:47 | INFO     | DF | Start valid epoch 10 with batch size 64
+/workspace/opennc/venv/lib/python3.11/site-packages/df/io.py:106: UserWarning: "sinc_interpolation" resampling method name is being deprecated and replaced by "sinc_interp_hann" in the next release. The default behavior remains unchanged.
+  return ta_resample(audio, orig_sr, new_sr, **params)
+2026-10-13 13:28:48 | INFO     | DF | [10] [0/3] | loss:  0.72843 | t_sample:  0.35133 | t_batch:  0.47502
+2026-10-13 13:28:49 | INFO     | DF | Avg batch loading time (py): 0.0576s
+2026-10-13 13:28:49 | INFO     | DF | Avg batch loading time (rs): 0.2894s
+2026-10-13 13:28:49 | INFO     | DF | Min/Avg/Max sample loading time (rs): 0.0000/0.0027/0.0521s
+2026-10-13 13:28:49 | INFO     | DF | Writing checkpoint /workspace/runs/S2/checkpoints/model_11.ckpt with epoch 11
+2026-10-13 13:28:49 | INFO     | DF | [10] [valid] | sdr_snr_-100: -1.46756 | stoi_snr_-100:  0.000E+00 | sdr_snr_-5:  6.65155 | stoi_snr_-5:  0.74679 | sdr_snr_0:  9.99884 | stoi_snr_0:  0.84508 | sdr_snr_5:  13.12063 | stoi_snr_5:  0.90759 | sdr_snr_10:  15.02166 | stoi_snr_10:  0.93954 | sdr_snr_20:  21.36968 | stoi_snr_20:  0.97477 | sdr_snr_40:  32.24172 | stoi_snr_40:  0.99680
+2026-10-13 13:28:49 | INFO     | DF | [10] [valid] | loss:  0.75644 | MultiResSpecLoss:  0.73561 | LocalSnrLoss:  0.02083
+2026-10-13 13:28:49 | INFO     | DF | Start train epoch 11 with batch size 32
+2026-10-13 13:28:50 | INFO     | DF | [11] [   0/1221] | loss:  0.87182 | t_sample:  0.22137 | t_batch:  0.31578 | lr:  2.205E-04 | wd:  0.00297
+2026-10-13 13:29:41 | INFO     | DF | [11] [ 200/1221] | loss:  0.75862 | t_sample:  8.932E-05 | t_batch:  0.06193 | lr:  2.182E-04 | wd:  0.00304
+2026-10-13 13:30:32 | INFO     | DF | [11] [ 400/1221] | loss:  0.75029 | t_sample:  6.525E-05 | t_batch:  0.06376 | lr:  2.158E-04 | wd:  0.00312
+2026-10-13 13:31:22 | INFO     | DF | [11] [ 600/1221] | loss:  0.75554 | t_sample:  7.686E-05 | t_batch:  0.05949 | lr:  2.134E-04 | wd:  0.00320
+2026-10-13 13:32:13 | INFO     | DF | [11] [ 800/1221] | loss:  0.73808 | t_sample:  7.325E-05 | t_batch:  0.06244 | lr:  2.110E-04 | wd:  0.00328
+2026-10-13 13:33:03 | INFO     | DF | [11] [1000/1221] | loss:  0.75288 | t_sample:  6.791E-05 | t_batch:  0.06525 | lr:  2.086E-04 | wd:  0.00336
+2026-10-13 13:33:32 | WARNING  | DF | No speech signal found for idx 6544, seed 6588
+2026-10-13 13:33:53 | INFO     | DF | [11] [1200/1221] | loss:  0.74961 | t_sample:  1.293E-05 | t_batch:  0.04883 | lr:  2.061E-04 | wd:  0.00345
+2026-10-13 13:33:57 | INFO     | DF | Avg batch loading time (py): 0.0001s
+2026-10-13 13:33:57 | INFO     | DF | Avg batch loading time (rs): 0.0654s
+2026-10-13 13:33:57 | INFO     | DF | Min/Avg/Max sample loading time (rs): 0.0000/0.0000/0.0557s
+2026-10-13 13:33:58 | INFO     | DF | [11] [train] | loss:  0.74834 | lr:  2.058E-04
+2026-10-13 13:33:58 | INFO     | DF | Writing checkpoint /workspace/runs/S2/checkpoints/model_12.ckpt with epoch 12
+2026-10-13 13:33:58 | INFO     | DF | Writing checkpoint /workspace/runs/S2/checkpoints/opt_12.ckpt with epoch 12
+2026-10-13 13:33:58 | INFO     | DF | Start valid epoch 11 with batch size 64
+/workspace/opennc/venv/lib/python3.11/site-packages/df/io.py:106: UserWarning: "sinc_interpolation" resampling method name is being deprecated and replaced by "sinc_interp_hann" in the next release. The default behavior remains unchanged.
+  return ta_resample(audio, orig_sr, new_sr, **params)
+2026-10-13 13:33:59 | INFO     | DF | [11] [0/3] | loss:  0.67260 | t_sample:  0.26325 | t_batch:  0.36371
+2026-10-13 13:33:59 | INFO     | DF | Avg batch loading time (py): 0.0429s
+2026-10-13 13:33:59 | INFO     | DF | Avg batch loading time (rs): 0.2296s
+2026-10-13 13:33:59 | INFO     | DF | Min/Avg/Max sample loading time (rs): 0.0000/0.0020/0.0490s
+2026-10-13 13:33:59 | INFO     | DF | Writing checkpoint /workspace/runs/S2/checkpoints/model_12.ckpt with epoch 12
+2026-10-13 13:33:59 | INFO     | DF | [11] [valid] | sdr_snr_-100: -1.02744 | stoi_snr_-100:  0.000E+00 | sdr_snr_-5:  6.62535 | stoi_snr_-5:  0.74506 | sdr_snr_0:  9.87805 | stoi_snr_0:  0.84458 | sdr_snr_5:  13.03987 | stoi_snr_5:  0.90653 | sdr_snr_10:  14.94833 | stoi_snr_10:  0.93833 | sdr_snr_20:  21.31209 | stoi_snr_20:  0.97419 | sdr_snr_40:  32.46047 | stoi_snr_40:  0.99700
+2026-10-13 13:33:59 | INFO     | DF | [11] [valid] | loss:  0.75694 | MultiResSpecLoss:  0.73717 | LocalSnrLoss:  0.01977
+2026-10-13 13:33:59 | INFO     | DF | Start train epoch 12 with batch size 32
+2026-10-13 13:34:01 | INFO     | DF | [12] [   0/1221] | loss:  0.61885 | t_sample:  0.19884 | t_batch:  0.27653 | lr:  2.058E-04 | wd:  0.00345
+2026-10-13 13:34:15 | WARNING  | DF | No speech signal found for idx 8599, seed 8647
+2026-10-13 13:34:52 | INFO     | DF | [12] [ 200/1221] | loss:  0.75768 | t_sample:  7.836E-05 | t_batch:  0.06989 | lr:  2.034E-04 | wd:  0.00354
+2026-10-13 13:35:43 | INFO     | DF | [12] [ 400/1221] | loss:  0.74706 | t_sample:  5.971E-05 | t_batch:  0.05830 | lr:  2.009E-04 | wd:  0.00362
+2026-10-13 13:36:33 | INFO     | DF | [12] [ 600/1221] | loss:  0.75828 | t_sample:  5.457E-05 | t_batch:  0.05954 | lr:  1.984E-04 | wd:  0.00370
+2026-10-13 13:37:24 | INFO     | DF | [12] [ 800/1221] | loss:  0.76277 | t_sample:  7.930E-05 | t_batch:  0.05967 | lr:  1.959E-04 | wd:  0.00378
+2026-10-13 13:39:12 | INFO     | DF | [12] [1000/1221] | loss:  0.73279 | t_sample:  7.294E-05 | t_batch:  0.07034 | lr:  1.933E-04 | wd:  0.00387
+2026-10-13 13:40:34 | WARNING  | DF | No speech signal found for idx 31095, seed 31143
+2026-10-13 13:41:03 | INFO     | DF | [12] [1200/1221] | loss:  0.74781 | t_sample:  1.596E-05 | t_batch:  0.05018 | lr:  1.908E-04 | wd:  0.00395
+2026-10-13 13:41:13 | INFO     | DF | Avg batch loading time (py): 0.0001s
+2026-10-13 13:41:13 | INFO     | DF | Avg batch loading time (rs): 0.0687s
+2026-10-13 13:41:13 | INFO     | DF | Min/Avg/Max sample loading time (rs): 0.0000/0.0000/0.0766s
+2026-10-13 13:41:13 | INFO     | DF | [12] [train] | loss:  0.74718 | lr:  1.905E-04
+2026-10-13 13:41:13 | INFO     | DF | Writing checkpoint /workspace/runs/S2/checkpoints/model_13.ckpt with epoch 13
+2026-10-13 13:41:13 | INFO     | DF | Writing checkpoint /workspace/runs/S2/checkpoints/opt_13.ckpt with epoch 13
+2026-10-13 13:41:14 | INFO     | DF | Start valid epoch 12 with batch size 64
+/workspace/opennc/venv/lib/python3.11/site-packages/df/io.py:106: UserWarning: "sinc_interpolation" resampling method name is being deprecated and replaced by "sinc_interp_hann" in the next release. The default behavior remains unchanged.
+  return ta_resample(audio, orig_sr, new_sr, **params)
+2026-10-13 13:41:15 | INFO     | DF | [12] [0/3] | loss:  0.73362 | t_sample:  0.24031 | t_batch:  0.35725
+2026-10-13 13:41:17 | INFO     | DF | Avg batch loading time (py): 0.0436s
+2026-10-13 13:41:17 | INFO     | DF | Avg batch loading time (rs): 0.2104s
+2026-10-13 13:41:17 | INFO     | DF | Min/Avg/Max sample loading time (rs): 0.0000/0.0017/0.0530s
+2026-10-13 13:41:17 | INFO     | DF | Writing checkpoint /workspace/runs/S2/checkpoints/model_13.ckpt with epoch 13
+2026-10-13 13:41:17 | INFO     | DF | [12] [valid] | sdr_snr_-100: -0.89960 | stoi_snr_-100:  0.000E+00 | sdr_snr_-5:  6.52116 | stoi_snr_-5:  0.74348 | sdr_snr_0:  9.95948 | stoi_snr_0:  0.84576 | sdr_snr_5:  13.07365 | stoi_snr_5:  0.90607 | sdr_snr_10:  14.96702 | stoi_snr_10:  0.93737 | sdr_snr_20:  21.30368 | stoi_snr_20:  0.97426 | sdr_snr_40:  32.33909 | stoi_snr_40:  0.99697
+2026-10-13 13:41:17 | INFO     | DF | [12] [valid] | loss:  0.75982 | MultiResSpecLoss:  0.73940 | LocalSnrLoss:  0.02042
+2026-10-13 13:41:17 | INFO     | DF | Start train epoch 13 with batch size 32
+2026-10-13 13:41:18 | INFO     | DF | [13] [   0/1221] | loss:  0.70520 | t_sample:  0.13646 | t_batch:  0.22952 | lr:  1.905E-04 | wd:  0.00396
+2026-10-13 13:43:12 | INFO     | DF | [13] [ 200/1221] | loss:  0.75150 | t_sample:  6.694E-05 | t_batch:  0.06652 | lr:  1.879E-04 | wd:  0.00404
+2026-10-13 13:45:05 | INFO     | DF | [13] [ 400/1221] | loss:  0.76297 | t_sample:  7.135E-05 | t_batch:  0.06257 | lr:  1.854E-04 | wd:  0.00413
+2026-10-13 13:46:59 | INFO     | DF | [13] [ 600/1221] | loss:  0.75025 | t_sample:  7.617E-05 | t_batch:  0.08603 | lr:  1.828E-04 | wd:  0.00421
+2026-10-13 13:48:32 | WARNING  | DF | No speech signal found for idx 9017, seed 9069
+2026-10-13 13:48:56 | INFO     | DF | [13] [ 800/1221] | loss:  0.72746 | t_sample:  9.500E-05 | t_batch:  0.08190 | lr:  1.802E-04 | wd:  0.00430
+2026-10-13 13:49:38 | WARNING  | DF | No speech signal found for idx 8324, seed 8376
+2026-10-13 13:50:53 | INFO     | DF | [13] [1000/1221] | loss:  0.73252 | t_sample:  6.999E-05 | t_batch:  0.09340 | lr:  1.776E-04 | wd:  0.00438
+2026-10-13 13:52:06 | WARNING  | DF | No speech signal found for idx 32863, seed 32915
+2026-10-13 13:52:49 | INFO     | DF | [13] [1200/1221] | loss:  0.73766 | t_sample:  1.470E-05 | t_batch:  0.05252 | lr:  1.750E-04 | wd:  0.00447
+2026-10-13 13:53:00 | INFO     | DF | Avg batch loading time (py): 0.0001s
+2026-10-13 13:53:00 | INFO     | DF | Avg batch loading time (rs): 0.0760s
+2026-10-13 13:53:00 | INFO     | DF | Min/Avg/Max sample loading time (rs): 0.0000/0.0000/0.0495s
+2026-10-13 13:53:00 | INFO     | DF | [13] [train] | loss:  0.74576 | lr:  1.747E-04
+2026-10-13 13:53:00 | INFO     | DF | Writing checkpoint /workspace/runs/S2/checkpoints/model_14.ckpt with epoch 14
+2026-10-13 13:53:00 | INFO     | DF | Writing checkpoint /workspace/runs/S2/checkpoints/opt_14.ckpt with epoch 14
+2026-10-13 13:53:00 | INFO     | DF | Start valid epoch 13 with batch size 64
+/workspace/opennc/venv/lib/python3.11/site-packages/df/io.py:106: UserWarning: "sinc_interpolation" resampling method name is being deprecated and replaced by "sinc_interp_hann" in the next release. The default behavior remains unchanged.
+  return ta_resample(audio, orig_sr, new_sr, **params)
+2026-10-13 13:53:02 | INFO     | DF | [13] [0/3] | loss:  0.82571 | t_sample:  0.17965 | t_batch:  0.29791
+2026-10-13 13:53:04 | INFO     | DF | Avg batch loading time (py): 0.0377s
+2026-10-13 13:53:04 | INFO     | DF | Avg batch loading time (rs): 0.1806s
+2026-10-13 13:53:04 | INFO     | DF | Min/Avg/Max sample loading time (rs): 0.0000/0.0012/0.0291s
+2026-10-13 13:53:04 | INFO     | DF | Saving new best checkpoint at epoch 14 with metric: 0.7533857226371765
+2026-10-13 13:53:04 | INFO     | DF | Writing checkpoint /workspace/runs/S2/checkpoints/model_14.ckpt with epoch 14
+2026-10-13 13:53:04 | INFO     | DF | [13] [valid] | sdr_snr_-100: -1.58370 | stoi_snr_-100:  0.000E+00 | sdr_snr_-5:  6.57057 | stoi_snr_-5:  0.74353 | sdr_snr_0:  9.80042 | stoi_snr_0:  0.84263 | sdr_snr_5:  13.04770 | stoi_snr_5:  0.90622 | sdr_snr_10:  15.03407 | stoi_snr_10:  0.93858 | sdr_snr_20:  21.38643 | stoi_snr_20:  0.97416 | sdr_snr_40:  32.14964 | stoi_snr_40:  0.99695
+2026-10-13 13:53:04 | INFO     | DF | [13] [valid] | loss:  0.75339 | MultiResSpecLoss:  0.73485 | LocalSnrLoss:  0.01854
+2026-10-13 13:53:04 | INFO     | DF | Start train epoch 14 with batch size 32
+2026-10-13 13:53:06 | INFO     | DF | [14] [   0/1221] | loss:  0.60403 | t_sample:  0.14937 | t_batch:  0.24055 | lr:  1.747E-04 | wd:  0.00448
+2026-10-13 13:55:03 | INFO     | DF | [14] [ 200/1221] | loss:  0.74435 | t_sample:  7.592E-05 | t_batch:  0.06721 | lr:  1.721E-04 | wd:  0.00456
+2026-10-13 13:56:48 | WARNING  | DF | No speech signal found for idx 30926, seed 30982
+2026-10-13 13:56:58 | INFO     | DF | [14] [ 400/1221] | loss:  0.73873 | t_sample:  8.379E-05 | t_batch:  0.08071 | lr:  1.694E-04 | wd:  0.00465
+2026-10-13 13:58:35 | INFO     | DF | [14] [ 600/1221] | loss:  0.73804 | t_sample:  9.616E-05 | t_batch:  0.07456 | lr:  1.668E-04 | wd:  0.00473
+2026-10-13 14:00:01 | INFO     | DF | [14] [ 800/1221] | loss:  0.74899 | t_sample:  8.094E-05 | t_batch:  0.07181 | lr:  1.642E-04 | wd:  0.00482
+2026-10-13 14:01:27 | INFO     | DF | [14] [1000/1221] | loss:  0.75506 | t_sample:  7.913E-05 | t_batch:  0.07458 | lr:  1.615E-04 | wd:  0.00490
+2026-10-13 14:02:08 | WARNING  | DF | No speech signal found for idx 32082, seed 32138
+2026-10-13 14:02:53 | INFO     | DF | [14] [1200/1221] | loss:  0.75878 | t_sample:  1.371E-05 | t_batch:  0.05215 | lr:  1.589E-04 | wd:  0.00499
+2026-10-13 14:03:00 | INFO     | DF | Avg batch loading time (py): 0.0001s
+2026-10-13 14:03:00 | INFO     | DF | Avg batch loading time (rs): 0.0755s
+2026-10-13 14:03:00 | INFO     | DF | Min/Avg/Max sample loading time (rs): 0.0000/0.0000/0.0574s
+2026-10-13 14:03:01 | INFO     | DF | [14] [train] | loss:  0.74162 | lr:  1.586E-04
+2026-10-13 14:03:01 | INFO     | DF | Writing checkpoint /workspace/runs/S2/checkpoints/model_15.ckpt with epoch 15
+2026-10-13 14:03:01 | INFO     | DF | Writing checkpoint /workspace/runs/S2/checkpoints/opt_15.ckpt with epoch 15
+2026-10-13 14:03:01 | INFO     | DF | Start valid epoch 14 with batch size 64
+/workspace/opennc/venv/lib/python3.11/site-packages/df/io.py:106: UserWarning: "sinc_interpolation" resampling method name is being deprecated and replaced by "sinc_interp_hann" in the next release. The default behavior remains unchanged.
+  return ta_resample(audio, orig_sr, new_sr, **params)
+2026-10-13 14:03:02 | INFO     | DF | [14] [0/3] | loss:  0.71834 | t_sample:  0.29324 | t_batch:  0.40245
+2026-10-13 14:03:02 | INFO     | DF | Avg batch loading time (py): 0.0447s
+2026-10-13 14:03:02 | INFO     | DF | Avg batch loading time (rs): 0.2302s
+2026-10-13 14:03:02 | INFO     | DF | Min/Avg/Max sample loading time (rs): 0.0000/0.0020/0.0531s
+2026-10-13 14:03:02 | INFO     | DF | Saving new best checkpoint at epoch 15 with metric: 0.7479356527328491
+2026-10-13 14:03:02 | INFO     | DF | Writing checkpoint /workspace/runs/S2/checkpoints/model_15.ckpt with epoch 15
+2026-10-13 14:03:02 | INFO     | DF | [14] [valid] | sdr_snr_-100: -1.37455 | stoi_snr_-100:  0.000E+00 | sdr_snr_-5:  6.72011 | stoi_snr_-5:  0.74466 | sdr_snr_0:  10.05731 | stoi_snr_0:  0.84617 | sdr_snr_5:  13.09409 | stoi_snr_5:  0.90667 | sdr_snr_10:  15.08909 | stoi_snr_10:  0.93864 | sdr_snr_20:  21.49629 | stoi_snr_20:  0.97480 | sdr_snr_40:  32.48179 | stoi_snr_40:  0.99686
+2026-10-13 14:03:02 | INFO     | DF | [14] [valid] | loss:  0.74794 | MultiResSpecLoss:  0.72910 | LocalSnrLoss:  0.01884
+2026-10-13 14:03:02 | INFO     | DF | Start train epoch 15 with batch size 32
+2026-10-13 14:03:04 | INFO     | DF | [15] [   0/1221] | loss:  0.66413 | t_sample:  0.15071 | t_batch:  0.24335 | lr:  1.586E-04 | wd:  0.00500
+2026-10-13 14:04:29 | INFO     | DF | [15] [ 200/1221] | loss:  0.74063 | t_sample:  8.657E-05 | t_batch:  0.07544 | lr:  1.559E-04 | wd:  0.00509
+2026-10-13 14:05:53 | INFO     | DF | [15] [ 400/1221] | loss:  0.73361 | t_sample:  6.763E-05 | t_batch:  0.07725 | lr:  1.533E-04 | wd:  0.00517
+2026-10-13 14:07:17 | INFO     | DF | [15] [ 600/1221] | loss:  0.72787 | t_sample:  9.099E-05 | t_batch:  0.06719 | lr:  1.506E-04 | wd:  0.00526
+2026-10-13 14:08:41 | INFO     | DF | [15] [ 800/1221] | loss:  0.74573 | t_sample:  6.297E-05 | t_batch:  0.06226 | lr:  1.480E-04 | wd:  0.00534
+2026-10-13 14:10:04 | INFO     | DF | [15] [1000/1221] | loss:  0.77568 | t_sample:  6.369E-05 | t_batch:  0.07688 | lr:  1.453E-04 | wd:  0.00543
+2026-10-13 14:11:27 | INFO     | DF | [15] [1200/1221] | loss:  0.74095 | t_sample:  2.278E-05 | t_batch:  0.05355 | lr:  1.427E-04 | wd:  0.00551
+2026-10-13 14:11:35 | INFO     | DF | Avg batch loading time (py): 0.0001s
+2026-10-13 14:11:35 | INFO     | DF | Avg batch loading time (rs): 0.0719s
+2026-10-13 14:11:35 | INFO     | DF | Min/Avg/Max sample loading time (rs): 0.0000/0.0000/0.0644s
+2026-10-13 14:11:35 | INFO     | DF | [15] [train] | loss:  0.74649 | lr:  1.424E-04
+2026-10-13 14:11:35 | INFO     | DF | Writing checkpoint /workspace/runs/S2/checkpoints/model_16.ckpt with epoch 16
+2026-10-13 14:11:35 | INFO     | DF | Writing checkpoint /workspace/runs/S2/checkpoints/opt_16.ckpt with epoch 16
+2026-10-13 14:11:35 | INFO     | DF | Start valid epoch 15 with batch size 64
+/workspace/opennc/venv/lib/python3.11/site-packages/df/io.py:106: UserWarning: "sinc_interpolation" resampling method name is being deprecated and replaced by "sinc_interp_hann" in the next release. The default behavior remains unchanged.
+  return ta_resample(audio, orig_sr, new_sr, **params)
+2026-10-13 14:11:36 | INFO     | DF | [15] [0/3] | loss:  0.87550 | t_sample:  0.22520 | t_batch:  0.33187
+2026-10-13 14:11:37 | INFO     | DF | Avg batch loading time (py): 0.0434s
+2026-10-13 14:11:37 | INFO     | DF | Avg batch loading time (rs): 0.2005s
+2026-10-13 14:11:37 | INFO     | DF | Min/Avg/Max sample loading time (rs): 0.0000/0.0015/0.0464s
+2026-10-13 14:11:37 | INFO     | DF | Writing checkpoint /workspace/runs/S2/checkpoints/model_16.ckpt with epoch 16
+2026-10-13 14:11:37 | INFO     | DF | [15] [valid] | sdr_snr_-100: -1.20489 | stoi_snr_-100:  0.000E+00 | sdr_snr_-5:  6.61505 | stoi_snr_-5:  0.74795 | sdr_snr_0:  10.03087 | stoi_snr_0:  0.84645 | sdr_snr_5:  13.19699 | stoi_snr_5:  0.90988 | sdr_snr_10:  15.07170 | stoi_snr_10:  0.93889 | sdr_snr_20:  21.45734 | stoi_snr_20:  0.97476 | sdr_snr_40:  32.35963 | stoi_snr_40:  0.99693
+2026-10-13 14:11:37 | INFO     | DF | [15] [valid] | loss:  0.74978 | MultiResSpecLoss:  0.73038 | LocalSnrLoss:  0.01940
+2026-10-13 14:11:37 | INFO     | DF | Start train epoch 16 with batch size 32
+2026-10-13 14:11:38 | INFO     | DF | [16] [   0/1221] | loss:  0.69264 | t_sample:  0.18746 | t_batch:  0.26545 | lr:  1.424E-04 | wd:  0.00552
+2026-10-13 14:13:01 | INFO     | DF | [16] [ 200/1221] | loss:  0.74110 | t_sample:  8.969E-05 | t_batch:  0.07198 | lr:  1.398E-04 | wd:  0.00561
+2026-10-13 14:14:36 | INFO     | DF | [16] [ 400/1221] | loss:  0.73733 | t_sample:  2.107E-04 | t_batch:  0.33137 | lr:  1.371E-04 | wd:  0.00569
+2026-10-13 14:16:33 | INFO     | DF | [16] [ 600/1221] | loss:  0.73858 | t_sample:  2.190E-04 | t_batch:  0.26636 | lr:  1.345E-04 | wd:  0.00578
+2026-10-13 14:18:30 | INFO     | DF | [16] [ 800/1221] | loss:  0.72495 | t_sample:  2.908E-04 | t_batch:  0.30775 | lr:  1.318E-04 | wd:  0.00586
+2026-10-13 14:19:52 | WARNING  | DF | No speech signal found for idx 30786, seed 30850
+2026-10-13 14:20:12 | WARNING  | DF | No speech signal found for idx 16842, seed 16906
+2026-10-13 14:20:15 | INFO     | DF | [16] [1000/1221] | loss:  0.74096 | t_sample:  1.974E-04 | t_batch:  0.18107 | lr:  1.292E-04 | wd:  0.00595
+2026-10-13 14:21:32 | INFO     | DF | [16] [1200/1221] | loss:  0.74543 | t_sample:  2.606E-05 | t_batch:  0.11881 | lr:  1.266E-04 | wd:  0.00603
+2026-10-13 14:21:37 | INFO     | DF | Avg batch loading time (py): 0.0002s
+2026-10-13 14:21:37 | INFO     | DF | Avg batch loading time (rs): 0.2006s
+2026-10-13 14:21:37 | INFO     | DF | Min/Avg/Max sample loading time (rs): 0.0000/0.0000/0.0621s
+2026-10-13 14:21:38 | INFO     | DF | [16] [train] | loss:  0.74486 | lr:  1.263E-04
+2026-10-13 14:21:38 | INFO     | DF | Writing checkpoint /workspace/runs/S2/checkpoints/model_17.ckpt with epoch 17
+2026-10-13 14:21:38 | INFO     | DF | Writing checkpoint /workspace/runs/S2/checkpoints/opt_17.ckpt with epoch 17
+2026-10-13 14:21:38 | INFO     | DF | Start valid epoch 16 with batch size 64
+/workspace/opennc/venv/lib/python3.11/site-packages/df/io.py:106: UserWarning: "sinc_interpolation" resampling method name is being deprecated and replaced by "sinc_interp_hann" in the next release. The default behavior remains unchanged.
+  return ta_resample(audio, orig_sr, new_sr, **params)
+2026-10-13 14:21:39 | INFO     | DF | [16] [0/3] | loss:  0.92722 | t_sample:  0.37052 | t_batch:  0.60185
+/workspace/opennc/venv/lib/python3.11/site-packages/df/io.py:106: UserWarning: "sinc_interpolation" resampling method name is being deprecated and replaced by "sinc_interp_hann" in the next release. The default behavior remains unchanged.
+  return ta_resample(audio, orig_sr, new_sr, **params)
+2026-10-13 14:21:40 | INFO     | DF | Avg batch loading time (py): 0.0853s
+2026-10-13 14:21:40 | INFO     | DF | Avg batch loading time (rs): 0.3416s
+2026-10-13 14:21:40 | INFO     | DF | Min/Avg/Max sample loading time (rs): 0.0000/0.0019/0.0861s
+2026-10-13 14:21:40 | INFO     | DF | Writing checkpoint /workspace/runs/S2/checkpoints/model_17.ckpt with epoch 17
+2026-10-13 14:21:40 | INFO     | DF | [16] [valid] | sdr_snr_-100: -1.03985 | stoi_snr_-100:  0.000E+00 | sdr_snr_-5:  6.58267 | stoi_snr_-5:  0.74313 | sdr_snr_0:  9.98119 | stoi_snr_0:  0.84555 | sdr_snr_5:  13.08053 | stoi_snr_5:  0.90787 | sdr_snr_10:  15.04234 | stoi_snr_10:  0.93872 | sdr_snr_20:  21.44052 | stoi_snr_20:  0.97479 | sdr_snr_40:  32.58322 | stoi_snr_40:  0.99707
+2026-10-13 14:21:40 | INFO     | DF | [16] [valid] | loss:  0.74957 | MultiResSpecLoss:  0.73055 | LocalSnrLoss:  0.01902
+2026-10-13 14:21:40 | INFO     | DF | Start train epoch 17 with batch size 32
+2026-10-13 14:21:41 | INFO     | DF | [17] [   0/1221] | loss:  0.82171 | t_sample:  0.35872 | t_batch:  0.55786 | lr:  1.263E-04 | wd:  0.00604
+2026-10-13 14:23:01 | INFO     | DF | [17] [ 200/1221] | loss:  0.75378 | t_sample:  1.125E-04 | t_batch:  0.15820 | lr:  1.237E-04 | wd:  0.00612
+2026-10-13 14:24:19 | INFO     | DF | [17] [ 400/1221] | loss:  0.73934 | t_sample:  1.476E-04 | t_batch:  0.16934 | lr:  1.211E-04 | wd:  0.00621
+2026-10-13 14:25:24 | INFO     | DF | [17] [ 600/1221] | loss:  0.76667 | t_sample:  9.410E-05 | t_batch:  0.10079 | lr:  1.185E-04 | wd:  0.00629
+2026-10-13 14:26:27 | INFO     | DF | [17] [ 800/1221] | loss:  0.76471 | t_sample:  1.684E-04 | t_batch:  0.11799 | lr:  1.159E-04 | wd:  0.00637
+2026-10-13 14:27:28 | INFO     | DF | [17] [1000/1221] | loss:  0.71418 | t_sample:  1.327E-04 | t_batch:  0.10852 | lr:  1.133E-04 | wd:  0.00645
+2026-10-13 14:27:57 | WARNING  | DF | No speech signal found for idx 29941, seed 30009
+2026-10-13 14:28:20 | INFO     | DF | [17] [1200/1221] | loss:  0.74454 | t_sample:  1.780E-05 | t_batch:  0.05265 | lr:  1.108E-04 | wd:  0.00654
+2026-10-13 14:28:24 | INFO     | DF | Avg batch loading time (py): 0.0003s
+2026-10-13 14:28:24 | INFO     | DF | Avg batch loading time (rs): 0.1307s
+2026-10-13 14:28:24 | INFO     | DF | Min/Avg/Max sample loading time (rs): 0.0000/0.0000/0.1105s
+2026-10-13 14:28:24 | INFO     | DF | [17] [train] | loss:  0.74693 | lr:  1.105E-04
+2026-10-13 14:28:24 | INFO     | DF | Writing checkpoint /workspace/runs/S2/checkpoints/model_18.ckpt with epoch 18
+2026-10-13 14:28:24 | INFO     | DF | Writing checkpoint /workspace/runs/S2/checkpoints/opt_18.ckpt with epoch 18
+2026-10-13 14:28:24 | INFO     | DF | Start valid epoch 17 with batch size 64
+/workspace/opennc/venv/lib/python3.11/site-packages/df/io.py:106: UserWarning: "sinc_interpolation" resampling method name is being deprecated and replaced by "sinc_interp_hann" in the next release. The default behavior remains unchanged.
+  return ta_resample(audio, orig_sr, new_sr, **params)
+2026-10-13 14:28:25 | INFO     | DF | [17] [0/3] | loss:  0.66916 | t_sample:  0.20011 | t_batch:  0.32904
+2026-10-13 14:28:26 | INFO     | DF | Avg batch loading time (py): 0.0402s
+2026-10-13 14:28:26 | INFO     | DF | Avg batch loading time (rs): 0.1916s
+2026-10-13 14:28:26 | INFO     | DF | Min/Avg/Max sample loading time (rs): 0.0000/0.0012/0.0417s
+2026-10-13 14:28:26 | INFO     | DF | Writing checkpoint /workspace/runs/S2/checkpoints/model_18.ckpt with epoch 18
+2026-10-13 14:28:26 | INFO     | DF | [17] [valid] | sdr_snr_-100: -1.04614 | stoi_snr_-100:  0.000E+00 | sdr_snr_-5:  6.69931 | stoi_snr_-5:  0.74615 | sdr_snr_0:  9.92109 | stoi_snr_0:  0.84489 | sdr_snr_5:  13.00409 | stoi_snr_5:  0.90562 | sdr_snr_10:  15.01458 | stoi_snr_10:  0.93795 | sdr_snr_20:  21.40646 | stoi_snr_20:  0.97475 | sdr_snr_40:  32.61891 | stoi_snr_40:  0.99700
+2026-10-13 14:28:26 | INFO     | DF | [17] [valid] | loss:  0.75035 | MultiResSpecLoss:  0.73173 | LocalSnrLoss:  0.01863
+2026-10-13 14:28:26 | INFO     | DF | Start train epoch 18 with batch size 32
+2026-10-13 14:28:27 | INFO     | DF | [18] [   0/1221] | loss:  1.00004 | t_sample:  0.17066 | t_batch:  0.26899 | lr:  1.105E-04 | wd:  0.00655
+2026-10-13 14:29:18 | INFO     | DF | [18] [ 200/1221] | loss:  0.74611 | t_sample:  7.108E-05 | t_batch:  0.06057 | lr:  1.080E-04 | wd:  0.00663
+2026-10-13 14:30:09 | INFO     | DF | [18] [ 400/1221] | loss:  0.73576 | t_sample:  7.837E-05 | t_batch:  0.07031 | lr:  1.054E-04 | wd:  0.00671
+W1013 14:30:09.998000 133420489852736 torch/distributed/elastic/agent/server/api.py:688] Received 15 death signal, shutting down workers
+W1013 14:30:09.999000 133420489852736 torch/distributed/elastic/multiprocessing/api.py:858] Sending process 36697 closing signal SIGTERM
+W1013 14:30:09.999000 133420489852736 torch/distributed/elastic/multiprocessing/api.py:858] Sending process 36698 closing signal SIGTERM
+W1013 14:30:09.999000 133420489852736 torch/distributed/elastic/multiprocessing/api.py:858] Sending process 36699 closing signal SIGTERM
+W1013 14:30:09.999000 133420489852736 torch/distributed/elastic/multiprocessing/api.py:858] Sending process 36700 closing signal SIGTERM
+Traceback (most recent call last):
+  File "/workspace/opennc/venv/bin/torchrun", line 10, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/workspace/opennc/venv/lib/python3.11/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 348, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/workspace/opennc/venv/lib/python3.11/site-packages/torch/distributed/run.py", line 901, in main
+    run(args)
+  File "/workspace/opennc/venv/lib/python3.11/site-packages/torch/distributed/run.py", line 892, in run
+    elastic_launch(
+  File "/workspace/opennc/venv/lib/python3.11/site-packages/torch/distributed/launcher/api.py", line 133, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/opennc/venv/lib/python3.11/site-packages/torch/distributed/launcher/api.py", line 255, in launch_agent
+    result = agent.run()
+             ^^^^^^^^^^^
+  File "/workspace/opennc/venv/lib/python3.11/site-packages/torch/distributed/elastic/metrics/api.py", line 124, in wrapper
+    result = f(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^
+  File "/workspace/opennc/venv/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/api.py", line 680, in run
+    result = self._invoke_run(role)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/opennc/venv/lib/python3.11/site-packages/torch/distributed/elastic/agent/server/api.py", line 835, in _invoke_run
+    time.sleep(monitor_interval)
+  File "/workspace/opennc/venv/lib/python3.11/site-packages/torch/distributed/elastic/multiprocessing/api.py", line 79, in _terminate_process_handler
+    raise SignalException(f"Process {os.getpid()} got signal: {sigval}", sigval=sigval)
+torch.distributed.elastic.multiprocessing.api.SignalException: Process 36631 got signal: 15

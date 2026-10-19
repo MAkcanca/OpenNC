@@ -1,0 +1,4 @@
+numpy>=1.24
+onnxruntime>=1.16
+soundfile>=0.12
+librosa>=0.10   # only for resampling non-48 kHz files in the CLI / eval scripts

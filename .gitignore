@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+dist/
+eval/dnsmos_models/
+*.wav
