@@ -1,0 +1,10 @@
+OpenNC
+Copyright 2026 Mustafa Akcanca
+
+This product includes software derived from the DeepFilterNet project
+(https://github.com/Rikorose/DeepFilterNet), Copyright Hendrik Schroeter,
+licensed under the MIT License and the Apache License 2.0.
+
+The model weights were trained on the DNS Challenge 4 datasets (LibriVox read
+speech, VCTK, CREMA-D, AudioSet, Freesound), MUSAN, and openSLR 26/28 impulse
+responses. Dataset licenses and attribution are listed in TRAINING.md.
